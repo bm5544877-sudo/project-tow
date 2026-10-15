@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+   
+    <title>project tow</title>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-primary: #00FF00;
+        --color-secondary: #808080;
+        --color-dark:#161c28;
+        --color-form:#222938;
+        --color-bg:#f9f8fe;
+        --color-card:#f9fafb;
+      }
+    </style>
+
+</head>
+<body>
+    <main>
+        <section class="relative ">
+            <div>
+                <div class="absolute -top-50 -left-50 rounded-full w-[400px] h-[400px] blur-[300px] bg-primary/30"></div>
+                <div class="absolute -bottom-50 -right-50 rounded-full w-[400px] h-[400px] blur-[300px] bg-primary/30"></div>
+            </div>
+            <!-- header -->
+             <header class="container  ">
+                <nav class="flex items-center justify-between sm:mx-0! lg:mx-auto! ">
+                     <!-- logo -->
+                 <a class="text-4xl font-bold text-primary" href="#Biccis">Biccas</a>
+                 <!-- links -->
+                  <ul class="flex items-center gap-5 hidden md:flex lg:flex">
+                   <li class="text-black capitalize font-semibold"><a href=""></a>home</li>
+                   <li class="text-secondary capitalize" ><a href=""></a>product</li>
+                   <li class="text-secondary capitalize"><a href=""></a>FAQ</li>
+                   <li class="text-secondary capitalize"><a href=""></a>Blog</li>
+                   <li class="text-secondary capitalize"><a href=""></a>About us</li>
+                  </ul>
+                  <!-- btn -->
+                   <div class=" items-center gap-5 mt-2! hidden md:flex lg:flex mx-auto ">
+                    <button  class="text-black hover:border-b hover:text-secondary cursor-pointer">Login</button>
+                    <button class="text-white-900 px-2! py-1! bg-primary rounded-xl cursor-pointer text-semibold cursor-pointer">sine up</button>
+                   </div> 
+                   <!-- menu -->
+                    <button class=" flex md:hidden lg:hidden cursor-pointer " id="toggle"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu preview-icon"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg></button>            
+</nav>
+               
+             </header>
+              <ul class=" hidden items-start flex-col text-start gap-5 md:hidden ml-5!" id="menusum">
+                   <li class="text-black capitalize font-semibold"><a href=""></a>home</li>
+                   <li class=" capitalize" ><a href=""></a>product</li>
+                   <li class=" capitalize"><a href=""></a>FAQ</li>
+                   <li class=" capitalize"><a href=""></a>Blog</li>
+                   <li class=" capitalize"><a href=""></a>About us</li>
+                  </ul>
+                  <div class="flex flex-col lg:flex-row container lg:mx-auto! gap-10 lg:gap-30 my-30!">
+                        <!-- info -->
+                    <div class=" flex flex-col gap-5">
+                        <!-- title -->
+                         <h1 class="text-5xl font-bold leading-[1.2] max-w-100">were here to increase your productivity</h1>
+                         <img class="w-70 h-70 font-semibold " src="/images/download.png" alt="curved plan">
+                         <p class=" font-semibold max-w-90 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fugit pariatur nemo eius id ipsam eveniet possimus perspiciatis rem unde nihil ullam officia
+                         </p>
+                         <button class="flex items-center gap-5">
+                            <span class=" flex py-2! px-3! bg-primary/70 rounded-full items-start w-fit hover:bg-transparent transition-color border border-primary hover:text-primary">try free trial</span>
+                            <span class="font-semibold  "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-play preview-icon"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg></span>
+                            <span class="text-1xl font-semibold hover:underline">view Demio</span>
+                         </button>
+                    </div>
+                    <!-- images -->
+                     <img class="w-150 h-140" src="/images/1000_F_316543160_XL9Na43jpZpC92SQ252BH9b2iahktgxG.jpg" alt="" srcset="">
+                 </div>
+                 <div class="container my-20">
+                    <h1 class="text-4xl font-bold text-center">more than 25,000 teams use collabs</h1>
+                    <div class="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 my-30!">
+                        <div class="flex gap-2">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu preview-icon"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg></span>
+                            <span>play plan</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu preview-icon"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg></span>
+                            <span>play plan</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu preview-icon"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg></span>
+                            <span>play plan</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu preview-icon"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg></span>
+                            <span>play plan</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu preview-icon"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg></span>
+                            <span>play plan</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu preview-icon"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg></span>
+                            <span>play plan</span>
+                        </div>
+                    </div>
+           </div>
+           <!-- section tow -->
+  </section>
+  <section class="bg-bg">
+    <div class="container flex flex-col md:flex-row gap-10 py-15!">
+        <div class="flex flex-col gap-8">
+            <!-- title -->
+            <h1 class="text-5xl font-bold max-w-200">how we support tur prtaner all over the world</h1>
+            <p class="text-secondary font-semibold leading-[1.6]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nulla! Impedit inventore exercitationem nemo autem doloribus nobis praesentium nostrum obcaecati.</p>
+            <!-- star section -->
+            <div>
+                <div class="flex flex-row gap-5">
+                    <!-- stars -->
+                     <div class="flex flex-col md:flex-row gap-5 ">
+                         <div class=" flex flex-col py-15! gap-3">
+                         <div class="flex gap-2 w-65">
+                     <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star preview-icon"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star preview-icon"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star preview-icon"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star preview-icon"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star preview-icon"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg></span>
+                    </div>
+                    <!-- rating -->
+                     <!-- <div class="flex flex-col "> -->
+                        <span class="font-semibold text-2xl">4.9 / 5 rating</span>
+                   <h4 class="text-secondary text-1xl font-semibold">databricks</h4>
+
+                     <!-- </div > -->
+                   
+                     </div>
+                         <div class=" flex flex-col py-15! gap-3">
+                         <div class="flex gap-2 ">
+                     <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star preview-icon"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star preview-icon"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star preview-icon"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star preview-icon"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star preview-icon"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg></span>
+                    </div>
+                    <!-- rating -->
+                     <!-- <div class="flex flex-col "> -->
+                        <span class="font-semibold text-2xl">4.9 / 5 rating</span>
+                   <h4 class="text-secondary text-1xl font-semibold">databricks</h4>
+                     <!-- </div > -->  
+                     </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- right -->
+         <div class="flex flex-col gap-15">
+             <div class=" flex gap-3">
+             <div>
+            <span class="shadow-xl"><svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-grid-3x3 preview-icon"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg></span>
+         </div>
+         <div class="flex flex-col gap-2">
+            <h1 class="text-xl font-bold">publishing</h1>
+            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aliquid optio quos illum ad culpa, repellat distinctio</p>
+         </div>
+
+
+         </div>
+         <div class=" flex gap-3">
+             <div>
+            <span class="shadow-xl"><svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-grid-3x3 preview-icon"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg></span>
+         </div>
+         <div class="flex flex-col gap-2">
+            <h1 class="text-xl font-bold">publishing</h1>
+            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aliquid optio quos illum ad culpa, repellat distinctio </p>
+         </div>
+
+
+         </div>
+         <div class=" flex gap-3">
+             <div>
+            <span class="shadow-xl"><svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-grid-3x3 preview-icon"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg></span>
+         </div>
+         <div class="flex flex-col gap-2">
+            <h1 class="text-xl font-bold">publishing</h1>
+            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aliquid optio quos illum ad culpa, repellat distinctio </p>
+         </div>
+         </div>
+         </div>
+    </div>
+   
+  </section>
+  <!-- section three name is features -->
+  <section class="my-30!">
+ <div class="container relative">
+     <div class="absolute -bottom-10 -right-50 w-[400px] h-[400px] blur-[300px] bg-primary/30"></div>
+     <!-- head -->
+      <div class="flex items-center justify-between flex-col lg:flex-row gap-5">
+        <h1 class="text-3xl font-bold w-60">our features you cab get</h1>
+        <p class="text-secondary w-full md:w-100">Lorem ipsum dolor sit  Illo, dolor! Ullam sint eveniet aspernatur assumenda ad exercitationem</p>
+        <button class="text-white-900 px-2! py-1! bg-primary rounded-xl cursor-pointer text-semibold cursor-pointer">sine up</button>
+         
+      </div> 
+       <!-- public -->
+        <div class="py-15! grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-5 justify-items-center md:justify-items-start ">
+         <!-- card -->
+              <div class="flex flex-col gap-5">
+            <!-- image -->
+             <div>
+                <img class="w-70 h-95" src="/images/card one.avif" alt="">
+             </div>
+             <h2 class="text-3xl font-bold">collboration teams</h2>
+             <p class="text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus perspiciatis </p>
+        </div>
+              <div class="flex flex-col gap-5">
+            <!-- image -->
+             <div>
+                <img class="w-70 h-95" src="/images/card one.avif" alt="">
+             </div>
+             <h2 class="text-3xl font-bold">collboration teams</h2>
+             <p class="text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus perspiciatis </p>
+        </div>
+              <div class="flex flex-col gap-5">
+            <!-- image -->
+             <div>
+                <img class="w-70 h-95" src="/images/card one.avif" alt="">
+             </div>
+             <h2 class="text-3xl font-bold">collboration teams</h2>
+             <p class="text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus perspiciatis </p>
+        </div>
+        </div>
+    </div>
+    <!-- benifit -->
+    <div class="flex flex-col lg:flex-row gap-15 container justify-between py-30!">
+        <!-- left -->
+<div class="flex flex-col gap-15">
+    <!-- head --> 
+     <div>
+        <h1 class=" text-4xl font-bold w-full md:w-80 capitalize">what Benifit will you get</h1>
+     </div>
+     <ul class="flex flex-col gap-5">
+        <li class="flex gap-3"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check preview-icon"><circle cx="12" cy="12" r="10"/><path d="m16 9-5.5 5.5L8 12"/></svg></span><span class="font-semibold" >abdelrhman mohamed ali abdelaity</span></li>
+        
+        <li class="flex gap-3"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check preview-icon"><circle cx="12" cy="12" r="10"/><path d="m16 9-5.5 5.5L8 12"/></svg></span><span class="font-semibold">abdelrhman mohamed ali abdelaity</span></li>
+        
+        <li class="flex gap-3"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check preview-icon"><circle cx="12" cy="12" r="10"/><path d="m16 9-5.5 5.5L8 12"/></svg></span><span class="font-semibold">abdelrhman mohamed ali abdelaity</span></li>
+        
+        <li class="flex gap-3"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check preview-icon"><circle cx="12" cy="12" r="10"/><path d="m16 9-5.5 5.5L8 12"/></svg></span><span class="font-semibold">abdelrhman mohamed ali abdelaity</span></li>
+        
+        <li class="flex gap-3"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check preview-icon"><circle cx="12" cy="12" r="10"/><path d="m16 9-5.5 5.5L8 12"/></svg></span><span class="font-semibold">abdelrhman mohamed ali abdelaity</span></li>
+        
+     </ul>
+</div>
+<!-- right -->
+ <div class=" ">
+<img class="w-90 h-95 rounded-xl" src="/images/card one.avif" alt="">
+ </div>
+    </div>
+  </section>
+    </main>
+    <!-- footer -->
+     <footer class="bg-dark mt-30! pt-30! container">
+        <!-- public -->
+<div class="flex flex-col xl:flex-row items-center xl:items-start gap-20">
+<!-- left -->
+ <div class="flex flex-col gap-10 w-1/2">
+<h1 class="text-3xl font-bold text-white capitalize">people are saying about dowhit</h1>
+<p class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quaerat modi harum maiores fugit omnis!</p>
+<span class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-list-sort-ascending preview-icon"><path d="M3 19h18"/><path d="M15 12H3"/><path d="M9 5H3"/></svg></span>
+<p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, illum consequuntur quos minus molestiae voluptatibus facere reiciendis cum, incidunt molestias, velit alias eaque quisquam quis!</p>
+<span class="text-secondary">abdelrhman mohamed </span>
+<!-- profile -->
+<div class="flex gap-3 flex-col md:flex-row">
+    <span class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user-round preview-icon"><path d="M17.925 20.056a6 6 0 0 0-11.851.001"/><circle cx="12" cy="11" r="4"/><circle cx="12" cy="12" r="10"/></svg ></span>
+    <span class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user-round preview-icon"><path d="M17.925 20.056a6 6 0 0 0-11.851.001"/><circle cx="12" cy="11" r="4"/><circle cx="12" cy="12" r="10"/></svg ></span>
+    <span class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user-round preview-icon"><path d="M17.925 20.056a6 6 0 0 0-11.851.001"/><circle cx="12" cy="11" r="4"/><circle cx="12" cy="12" r="10"/></svg ></span>
+    <span class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user-round preview-icon"><path d="M17.925 20.056a6 6 0 0 0-11.851.001"/><circle cx="12" cy="11" r="4"/><circle cx="12" cy="12" r="10"/></svg ></span>
+    <span class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user-round preview-icon"><path d="M17.925 20.056a6 6 0 0 0-11.851.001"/><circle cx="12" cy="11" r="4"/><circle cx="12" cy="12" r="10"/></svg ></span>
+    <span class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user-round preview-icon"><path d="M17.925 20.056a6 6 0 0 0-11.851.001"/><circle cx="12" cy="11" r="4"/><circle cx="12" cy="12" r="10"/></svg ></span>
+</div>
+ </div>
+ <!-- left -->
+  <!-- right --> 
+   <div class="w-1/2">
+<form action="" class="flex flex-col gap-5 rounded-xl py-10! px-10! border border-white">
+    <div class=" flex flex-col items-center   gap-2">
+<img  class=" flex w-20 h-15 " src="/images/database.png" alt="">
+<p class="text-xl font-semibold capitalize flex text-white">get started</p>
+  </div>
+  <div class="flex flex-col items-start gap-3">
+    <label class="text-white " for="">email</label>
+   <input class="text-white w-full py-3! px-3! rounded-xl border border-white  items-start" type="email" placeholder="enter the email">
+   <label class="text-white " for="">message</label>
+<textarea class="py-3! px-3! w-full  rounded-xl border text-secondary border-white" name="" id="" rows="2" placeholder="enter the text"></textarea>
+<button class="py-3! px-3! rounded-xl bg-primary/50  w-full"> requset start</button>
+  </div>
+</form>
+    </div>
+   <!-- right -->
+    <!-- down -->
+</div>
+<div class=" grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 py-20! gap-10">
+        <div class=" flex flex-col gap-5 lg:col-span-2">
+            <a class="text-4xl font-bold text-primary" href="#Biccis">Biccas</a>
+            <p class="text-secondary">abdelrhman mohamed ali abdealaty</p>
+            <div class=" relative">
+                <input class="py-4! px-3! text-secondary rounded-full border border-white w-full" type="text" placeholder="enter the text">
+            <button class="bg-primary absolute right-1 top-1/2 -translate-y-1/2 py-3! px-3! rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right preview-icon"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
+            </div>
+        </div>
+        <ul class="flex flex-col gap-3">
+           <h1 class="text-white  font-semibold">Support</h1>
+            <li class="text-secondary hover:underline hover:decoration-white"><a href="">abdelrhman mohamed</a></li>
+            <li class="text-secondary hover:underline hover:decoration-white"><a href="">abdelrhman mohamed</a></li>
+            <li class="text-secondary hover:underline hover:decoration-white"><a href="">abdelrhman mohamed</a></li>
+            <li class="text-secondary hover:underline decoration-white"><a href="">abdelrhman mohamed</a></li>
+            <li class="text-secondary hover:underline hover:decoration-white"><a href="">abdelrhman mohamed</a></li>
+           
+        </ul>
+        <ul class="flex flex-col gap-3">
+           <h1 class="text-white  font-semibold">Support</h1>
+            <li class="text-secondary" hover:underline hover:decoration-white><a href="">abdelrhman mohamed</a></li>
+            <li class="text-secondary" hover:underline hover:decoration-white><a href="">abdelrhman mohamed</a></li>
+            <li class="text-secondary" hover:underline hover:decoration-white><a href="">abdelrhman mohamed</a></li>
+            <li class="text-secondary" hover:underline hover:decoration-white><a href="">abdelrhman mohamed</a></li>
+            <li class="text-secondary" hover:underline hover:decoration-white><a href="">abdelrhman mohamed</a></li>
+           
+        </ul>
+        <ul class="flex flex-col gap-3">
+           <h1 class="text-white  font-semibold">Support</h1>
+            <li class="text-secondary hover:underline hover: decoration-white"><a href="">abdelrhman mohamed</a></li>
+            <li class="text-secondary hover:underline hover:decoration-white"><a href="">abdelrhman mohamed</a></li>
+            <li class="text-secondary hover:underline hover:decoration-white"><a href="">abdelrhman mohamed</a></li>
+            <li class="text-secondary hover:underline hover:decoration-white"><a href="">abdelrhman mohamed</a></li>
+            <li class="text-secondary hover:underline hover:decoration-white"><a href="">abdelrhman mohamed</a></li>
+           
+        </ul>
+    </div>
+    <!-- last down -->
+    <div class="flex justify-between py-2!">
+        <div class="flex">
+            <span class="text-secondary">@ 2022 biccis inc. </span>
+            <span class="text-secondary">copy right and nith resorced</span>
+        </div>
+        <div class="flex">
+        <span class="text-secondary">@ 2022 biccis inc </span>
+        <span class="px-2! text-white">.</span>
+        <span class="text-secondary">copy right and nith resorced</span>
+        </div>
+    </div>
+     </footer>
+    <script src="app.js"></script>
+</body>
+</html>
